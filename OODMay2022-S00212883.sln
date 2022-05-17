@@ -9,6 +9,13 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataManagement", "DataManag
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OODMay2022UnitTesting", "OODMay2022UnitTesting\OODMay2022UnitTesting.csproj", "{BB53C54A-DA5F-45BA-BEDC-8BBE87E7F9BC}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Images", "Images", "{66EF1A38-87AE-4D46-96E2-2FE3FFDACA4E}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\..\..\..\..\AppData\Local\Temp\Rar$DRa23028.7562\images\flat.png = ..\..\..\..\..\..\AppData\Local\Temp\Rar$DRa23028.7562\images\flat.png
+		..\..\..\..\..\..\AppData\Local\Temp\Rar$DRa23028.7562\images\house.png = ..\..\..\..\..\..\AppData\Local\Temp\Rar$DRa23028.7562\images\house.png
+		..\..\..\..\..\..\AppData\Local\Temp\Rar$DRa23028.7562\images\share.png = ..\..\..\..\..\..\AppData\Local\Temp\Rar$DRa23028.7562\images\share.png
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU

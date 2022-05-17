@@ -7,17 +7,17 @@ using System.Threading.Tasks;
 
 namespace OODMay2022_S00212883
 {
-    public enum Types
+    public enum RentalType
     {
         House,
         Flat,
         Share
     }
-    public class RentalProperty
+    public class RentalProperty : IComparable
     {
         //Properties
         public int ID { get; set; }
-        public Types RentalType { get; set; }
+        public RentalType TypeOfRental { get; set; }
         public string Location { get; set; }
         public decimal Price { get; set; }
         public string Description { get; set; }
@@ -31,6 +31,12 @@ namespace OODMay2022_S00212883
         public void IncreaseRent(decimal Percentage)
         {
             Price += Price * Percentage;
+        }
+
+        int IComparable.CompareTo(object input)
+        {
+            RentalProperty toCompare = (RentalProperty)input;
+            return this.Price.CompareTo(toCompare.Price);
         }
 
     }//End of RentalProperty CLass
