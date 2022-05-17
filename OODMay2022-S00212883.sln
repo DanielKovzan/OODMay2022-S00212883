@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31515.178
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OODMay2022-S00212883", "OODMay2022-S00212883\OODMay2022-S00212883.csproj", "{FD6A31A1-920D-434D-AACC-D83259AD836F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OODMay2022", "OODMay2022-S00212883\OODMay2022.csproj", "{FD6A31A1-920D-434D-AACC-D83259AD836F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataManagement", "DataManagement\DataManagement.csproj", "{ABCF77F6-6CA3-4155-AB28-E5B44ECCB89B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OODMay2022UnitTesting", "OODMay2022UnitTesting\OODMay2022UnitTesting.csproj", "{BB53C54A-DA5F-45BA-BEDC-8BBE87E7F9BC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{FD6A31A1-920D-434D-AACC-D83259AD836F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FD6A31A1-920D-434D-AACC-D83259AD836F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FD6A31A1-920D-434D-AACC-D83259AD836F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ABCF77F6-6CA3-4155-AB28-E5B44ECCB89B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ABCF77F6-6CA3-4155-AB28-E5B44ECCB89B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ABCF77F6-6CA3-4155-AB28-E5B44ECCB89B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ABCF77F6-6CA3-4155-AB28-E5B44ECCB89B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BB53C54A-DA5F-45BA-BEDC-8BBE87E7F9BC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BB53C54A-DA5F-45BA-BEDC-8BBE87E7F9BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BB53C54A-DA5F-45BA-BEDC-8BBE87E7F9BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BB53C54A-DA5F-45BA-BEDC-8BBE87E7F9BC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
